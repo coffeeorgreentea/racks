@@ -14,7 +14,22 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@racks/validators": ["packages/validators/src/index.ts"],
+      "@racks/validators/*": ["packages/validators/src/*"],
+      "@racks/api": ["packages/api/src/index.ts"],
+      "@racks/api/*": ["packages/api/src/*"],
+      "@racks/db": ["packages/db/src/index.ts"],
+      "@racks/db/*": ["packages/db/src/*"],
+      "@racks/ui/core": ["packages/ui/core/src/index.ts"],
+      "@racks/ui/core/*": ["packages/ui/core/src/*"],
+      "@racks/ui/examples": ["packages/ui/examples/src/index.ts"],
+      "@racks/ui/examples/*": ["packages/ui/examples/src/*"],
+      "@racks/ui/hooks": ["packages/ui/hooks/src/index.ts"],
+      "@racks/ui/hooks/*": ["packages/ui/hooks/src/*"],
+      "@racks/ui/utils": ["packages/ui/utils/src/index.ts"],
+      "@racks/ui/utils/*": ["packages/ui/utils/src/*"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
